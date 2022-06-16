@@ -1,16 +1,22 @@
-@media only screen and (min-width: 375px){
+@media only screen and (min-device-width: 480px) {
     body{
         background-image: url("bg-intro-mobile.png");
         background-color: hsl(0, 100%, 74%) ;
     }
+
 }
-@media only screen and (max-width:1440px){
+@media only screen and (max-device-width: 1440px) {
     body{
         background-image: url("bg-intro-desktop.png");
         background-color: hsl(0, 100%, 74%) ;
     }
+
 }
 
+body{
+    background-image: url("bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%) ;
+}
 .container{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
